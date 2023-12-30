@@ -25,3 +25,14 @@
     transform: translateX(0);
   }
 }
+
+@keyframes bounce {
+  0%,
+  20%,
+  100% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-20px);
+  }
+}
